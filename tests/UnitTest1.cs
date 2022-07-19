@@ -23,10 +23,16 @@ public class UnitTest1
         Assert.Equal(2, sum);
     }
 
-        [Fact]
+    [Fact]
     public void Division()
     {
         var sum = 4 / 2;
         Assert.Equal(2, sum);
+    }
+
+    [Fact]
+    public void TestModulus() {
+        var mod = 4 % 2;
+        Assert.Equal(2, mod);
     }
 }
