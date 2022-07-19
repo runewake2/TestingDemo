@@ -32,7 +32,7 @@ public class UnitTest1
 
     [Fact]
     public void TestModulus() {
-        var mod = 4 % 3;
+        var mod = 2 % 3;
         Assert.Equal(2, mod);
     }
 }
