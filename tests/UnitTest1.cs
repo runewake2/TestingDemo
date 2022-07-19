@@ -26,7 +26,7 @@ public class UnitTest1
         [Fact]
     public void Division()
     {
-        var sum = 4 / 3;
+        var sum = 4 / 2;
         Assert.Equal(2, sum);
     }
 }
