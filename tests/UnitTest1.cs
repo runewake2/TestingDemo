@@ -22,4 +22,11 @@ public class UnitTest1
         var sum = 1 * 2;
         Assert.Equal(2, sum);
     }
+
+        [Fact]
+    public void Division()
+    {
+        var sum = 4 / 3;
+        Assert.Equal(2, sum);
+    }
 }
