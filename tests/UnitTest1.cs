@@ -19,7 +19,7 @@ public class UnitTest1
     [Fact]
     public void Multiplication()
     {
-        var sum = 1 * 2;
+        var sum = 1 * 4;
         Assert.Equal(2, sum);
     }
 }
